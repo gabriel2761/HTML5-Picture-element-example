@@ -3,6 +3,11 @@ html {
 	font-size: 16px;
 }
 
+main {
+	margin: 0 auto;
+	width: 100%;
+}
+
 h1 {
 	position: fixed;
 	padding: 8px;
@@ -13,4 +18,34 @@ h1 {
 img {
 	max-width: 100%;
 	margin-bottom: 8px;
+}
+
+@media (min-width: 600px) { 
+	h1 {
+		color: red;
+	}
+
+	main {
+		max-width: 600px;
+	}
+}
+
+@media (min-width: 800px) { 
+	h1 {
+		color: red;
+	}
+
+	main {
+		max-width: 800px;
+	}
+}
+
+@media (min-width: 1000px) { 
+	h1 {
+		color: green;
+	}
+
+	main {
+		max-width: 1000px;
+	}	
 }
